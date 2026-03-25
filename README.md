@@ -57,7 +57,7 @@ This app is an attempt to turn those repeated steps into a reusable interface â€
 - Comparing outcomes between two groups (e.g., treatment vs control, demographic groups)
 - Running regression models with consistent specifications across variables
 - Identifying meaningful differences using effect sizes (Cohenâ€™s d), not just p-values
-- Exploring relationships between variables during early-stage analysis
+- Exploring relationships between variables
 - Standardizing routine statistical checks to reduce manual errors
 
 ## How to run
@@ -65,12 +65,26 @@ This app is an attempt to turn those repeated steps into a reusable interface â€
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/social-science-analysis-app.git
+git clone https://github.com/evvvvatvan/social-science-analysis-app.git
 cd social-science-analysis-app
+```
 
+2. Install dependencies:
+
+```bash
 pip install -r requirements.txt
+```
 
+3. Run the app:
+
+```bash
 streamlit run app.py
+```
+
+If `streamlit` is not recognized as a command, try:
+
+```bash
+python -m streamlit run app.py
 ```
 
 ## Notes
